@@ -1,0 +1,95 @@
+* {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body {
+    background-color: white;
+}
+
+/* Nav */
+nav {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 00;
+}
+nav img {
+    width: 150px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#prod {
+    margin-left: 200px;
+}
+
+nav ul div:hover {
+    background-color: rgb(181, 176, 176);
+    padding: 4px 7px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+nav ul {
+    width: 27%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+/* Section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.GasLock {
+    width: 100%;
+    background-color: rgb(181, 176, 176);
+    border-radius: 0px 0px 70px 70px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.GasLock h1 {
+    color: black;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.GasLock p {
+    padding: 10px 300px;
+    color: black;
+}
+.GasLock img {
+    width: 50%;
+    border-radius: 4px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(181, 176, 176);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px;
+}

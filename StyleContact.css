@@ -1,0 +1,180 @@
+body {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: white;
+}
+
+/* Nav */
+nav {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 00;
+}
+nav img {
+    width: 150px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#prod {
+    margin-left: 200px;
+}
+
+nav ul div:hover {
+    background-color: rgb(181, 176, 176);
+    padding: 4px 7px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+nav ul {
+    width: 27%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+/* Section */
+
+section {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.instagram {
+    width: 100%;
+    background-color: rgb(181, 176, 176);
+    border-radius: 70px 70px 70px 70px;
+    color: white;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.instagram img {
+    width: 17vw;
+    margin-bottom: 60px;
+}
+.instagram button {
+    height: 50px;
+    width: 160px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 50px;  
+}
+.instagram button:hover {
+    background-color: #FFA500;
+    transition: 0.4s;
+}
+.youtube {
+    width: 100%;
+    background-color: red;
+    border-radius: 70px 70px 70px 70px;
+    color: white;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    position: relative;
+    top: -40px;
+    z-index: 3;
+}
+.youtube button {
+    height: 50px;
+    width: 160px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 4px 16px 0 black;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.youtube button:hover {
+    background-color: rgb(196, 30, 58);
+    transition: 0.4s;
+}
+.twitter {
+    width: 100%;
+    background-color: rgb(181, 176, 176);
+    border-radius: 70px 70px 70px 70px;
+    color: white;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    position: relative;
+    top: -90px;
+    z-index: 0;
+}
+.twitter img {
+    width: 17vw;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.twitter h1 {
+    margin-top: 50px;
+}
+.desctwit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 100px;
+}
+.twitter button {
+    height: 50px;
+    width: 160px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 50px;  
+}
+.twitter button:hover {
+    background-color: aqua;
+    transition: 0.4s;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(181, 176, 176);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px;
+}

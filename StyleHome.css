@@ -1,0 +1,165 @@
+* {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body {
+    background-color: white;
+}
+
+/* Nav */
+nav {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 00;
+}
+nav img {
+    width: 150px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#prod {
+    margin-left: 200px;
+}
+
+nav ul div:hover {
+    background-color: rgb(181, 176, 176);
+    padding: 4px 7px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+nav ul {
+    width: 27%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+/* Section */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.company {
+    width: 100%;
+    background-color: rgb(181, 176, 176);
+    border-radius: 0px 0px 70px 70px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.company img {
+    width: 50%;
+    border-radius: 4px;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product p {
+    margin: 0px;
+}
+.product img {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 50%;
+}
+.product button {
+    height: 50px;
+    width: 160px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.product button:hover {
+    background-color: red;
+    transition: 0.4s;
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team h1 {
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.card {
+    height: 350px;
+    width: 230px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+.card:hover {
+    box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.card img {
+    width: 100%;
+    height: 65%;
+    align-self: center;
+}
+#M3 {
+    width: 75%;
+    align-self: center;
+}
+.name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+.description {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(181, 176, 176);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px;
+}
