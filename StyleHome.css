@@ -137,6 +137,10 @@ section {
     width: 75%;
     align-self: center;
 }
+#coach {
+    width: 95%;
+    align-self: center;
+}
 .name {
     font-size: 1.2em;
     font-weight: bold;
