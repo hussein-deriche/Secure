@@ -67,7 +67,8 @@ section {
 }
 .company img {
     width: 50%;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .product {
     display: flex;
